@@ -12,8 +12,7 @@ Feature: Login
     When I click on login button
     Then I verify home page
 
-
-  Scenario: Login with correct wrong credentails
+  Scenario: Login scenario with negative username
     Given I land on the login page
     When I enter username and password
     When I click on login button
