@@ -28,9 +28,7 @@ private	By loginbtn=By.xpath("//*[@id='login-button']");
 	
 	
 	public void setUsername() {
-		sb.findele(username);
-		sb.explicitWait();
-		//driver.findElement(username).sendKeys("standard_user");
+		driver.findElement(username).sendKeys("standard_user");
 	}
 	
 	public void setPassword() {
